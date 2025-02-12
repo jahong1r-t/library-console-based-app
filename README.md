@@ -25,7 +25,7 @@ To run this application, ensure you have the following installed:
    ```
 2. Navigate to the project directory:
    ```sh
-   cd LibraryApplication
+   cd library-console-based-app
    ```
 3. Compile all Java files into the `out/` directory:
    ```sh
