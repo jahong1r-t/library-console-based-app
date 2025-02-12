@@ -14,11 +14,22 @@ import java.util.concurrent.TimeUnit;
 import static db.DataSource.users;
 
 public class NotificationService {
+    private final ScheduledExecutorService service = new ScheduledThreadPoolExecutor(2);
 
     public void service() {
-        ScheduledExecutorService service = new ScheduledThreadPoolExecutor(2);
         service.scheduleAtFixedRate(this::checkBorrows, 0, 1, TimeUnit.MINUTES);
         service.scheduleAtFixedRate(this::timeOverBorrowCheck, 0, 15, TimeUnit.MINUTES);
+    }
+
+    public void stopService() {
+        service.shutdown();
+        try {
+            if (!service.awaitTermination(3, TimeUnit.SECONDS)) {
+                service.shutdownNow();
+            }
+        } catch (InterruptedException e) {
+            service.shutdownNow();
+        }
     }
 
     private void checkBorrows() {
