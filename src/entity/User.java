@@ -1,7 +1,7 @@
-package entitiy;
+package entity;
 
 
-import entitiy.enums.Role;
+import entity.enums.Role;
 
 import java.util.List;
 

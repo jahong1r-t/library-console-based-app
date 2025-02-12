@@ -1,9 +1,9 @@
 package db;
 
-import entitiy.*;
-import entitiy.enums.BorrowState;
-import entitiy.enums.Role;
-import entitiy.enums.SectionState;
+import entity.*;
+import entity.enums.BorrowState;
+import entity.enums.Role;
+import entity.enums.SectionState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
