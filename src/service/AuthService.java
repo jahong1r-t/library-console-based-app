@@ -1,7 +1,8 @@
 package service;
 
-import entity.User;
-import entity.enums.Role;
+
+import entitiy.User;
+import entitiy.enums.Role;
 
 import java.util.ArrayList;
 import java.util.Objects;

@@ -1,6 +1,6 @@
 package entitiy;
 
-import entity.enums.Role;
+import entitiy.enums.Role;
 
 import java.util.UUID;
 

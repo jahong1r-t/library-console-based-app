@@ -1,9 +1,11 @@
 package service;
 
-import entity.*;
-import entity.Book;
-import entity.enums.BorrowState;
-import entity.enums.SectionState;
+import entitiy.Book;
+import entitiy.Borrow;
+import entitiy.History;
+import entitiy.Section;
+import entitiy.enums.BorrowState;
+import entitiy.enums.SectionState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -134,7 +136,7 @@ public class UserService {
             return;
         } else {
             for (Borrow borrow : currentUser.getBorrowList()) {
-                if (borrow.getBorrowState().equals(BorrowState.BORROWED)||borrow.getBorrowState().equals(BorrowState.TIME_OVER)) {
+                if (borrow.getBorrowState().equals(BorrowState.BORROWED) || borrow.getBorrowState().equals(BorrowState.TIME_OVER)) {
                     System.out.println(borrow);
                 }
             }

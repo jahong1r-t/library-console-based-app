@@ -1,6 +1,7 @@
 package entitiy;
 
-import entity.enums.Role;
+
+import entitiy.enums.Role;
 
 import java.util.List;
 
@@ -123,18 +124,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id='" + id + '\'' +
-                ", role=" + role +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", email='" + email + '\'' +
-                ", countBook=" + countBook +
-                ", password='" + password + '\'' +
-                ", histories=" + histories +
-                ", borrowList=" + borrowList +
-                ", balance=" + balance +
-                ", notification=" + notification +
-                '}';
+        return "User{" + "id='" + id + '\'' + ", role=" + role + ", name='" + name + '\'' + ", surname='" + surname + '\'' + ", email='" + email + '\'' + ", countBook=" + countBook + ", password='" + password + '\'' + ", histories=" + histories + ", borrowList=" + borrowList + ", balance=" + balance + ", notification=" + notification + '}';
     }
 }

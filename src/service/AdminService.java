@@ -1,7 +1,8 @@
 package service;
 
-import entity.*;
-import entity.enums.SectionState;
+
+import entitiy.*;
+import entitiy.enums.SectionState;
 
 import java.util.ArrayList;
 import java.util.Objects;
