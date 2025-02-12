@@ -29,7 +29,7 @@ To run this application, ensure you have the following installed:
    ```
 3. Compile all Java files into the `out/` directory:
    ```sh
-   javac -d out src/*.java
+   javac -encoding UTF-8 -d out -cp src @source.txt
    ```
 4. Run the application:
    ```sh
