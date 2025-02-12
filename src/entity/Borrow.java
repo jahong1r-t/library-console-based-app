@@ -1,7 +1,7 @@
-package entitiy;
+package entity;
 
 
-import entitiy.enums.BorrowState;
+import entity.enums.BorrowState;
 
 import java.time.LocalDateTime;
 

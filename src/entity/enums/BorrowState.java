@@ -1,4 +1,4 @@
-package entitiy.enums;
+package entity.enums;
 
 public enum BorrowState {
     BORROWED,

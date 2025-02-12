@@ -1,9 +1,9 @@
 package service;
 
 
-import entitiy.Borrow;
-import entitiy.User;
-import entitiy.enums.BorrowState;
+import entity.Borrow;
+import entity.User;
+import entity.enums.BorrowState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

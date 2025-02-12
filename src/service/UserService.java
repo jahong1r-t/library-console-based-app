@@ -1,11 +1,11 @@
 package service;
 
-import entitiy.Book;
-import entitiy.Borrow;
-import entitiy.History;
-import entitiy.Section;
-import entitiy.enums.BorrowState;
-import entitiy.enums.SectionState;
+import entity.Book;
+import entity.Borrow;
+import entity.History;
+import entity.Section;
+import entity.enums.BorrowState;
+import entity.enums.SectionState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
