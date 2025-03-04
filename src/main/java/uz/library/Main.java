@@ -1,5 +1,7 @@
-import service.AuthService;
-import service.NotificationService;
+package uz.library;
+
+import uz.library.service.AuthService;
+import uz.library.service.NotificationService;
 
 public class Main {
     public static void main(String[] args) {

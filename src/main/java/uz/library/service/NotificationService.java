@@ -1,9 +1,9 @@
-package service;
+package uz.library.service;
 
 
-import entity.Borrow;
-import entity.User;
-import entity.enums.BorrowState;
+import uz.library.entity.Borrow;
+import uz.library.entity.User;
+import uz.library.entity.enums.BorrowState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -11,7 +11,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import static db.DataSource.users;
+import static uz.library.db.DataSource.users;
 
 public class NotificationService {
     private final ScheduledExecutorService service = new ScheduledThreadPoolExecutor(2);

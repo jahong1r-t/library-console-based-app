@@ -1,11 +1,11 @@
-package service;
+package uz.library.service;
 
-import entity.Book;
-import entity.Borrow;
-import entity.History;
-import entity.Section;
-import entity.enums.BorrowState;
-import entity.enums.SectionState;
+import uz.library.entity.Book;
+import uz.library.entity.Borrow;
+import uz.library.entity.History;
+import uz.library.entity.Section;
+import uz.library.entity.enums.BorrowState;
+import uz.library.entity.enums.SectionState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -13,7 +13,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 
-import static db.DataSource.*;
+import static uz.library.db.DataSource.*;
 
 public class UserService {
     public void service() {

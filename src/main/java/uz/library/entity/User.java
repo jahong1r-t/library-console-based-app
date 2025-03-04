@@ -1,7 +1,7 @@
-package entity;
+package uz.library.entity;
 
 
-import entity.enums.Role;
+import uz.library.entity.enums.Role;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package db;
+package uz.library.db;
 
-import entity.*;
-import entity.enums.BorrowState;
-import entity.enums.Role;
-import entity.enums.SectionState;
+import uz.library.entity.*;
+import uz.library.entity.enums.BorrowState;
+import uz.library.entity.enums.Role;
+import uz.library.entity.enums.SectionState;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

@@ -1,15 +1,15 @@
-package service;
+package uz.library.service;
 
 
-import entity.*;
-import entity.enums.SectionState;
+import uz.library.entity.*;
+import uz.library.entity.enums.SectionState;
 
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 
-import static db.DataSource.*;
+import static uz.library.db.DataSource.*;
 
 public class AdminService {
 

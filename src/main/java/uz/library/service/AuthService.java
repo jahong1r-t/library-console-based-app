@@ -1,14 +1,14 @@
-package service;
+package uz.library.service;
 
 
-import entity.User;
-import entity.enums.Role;
+import uz.library.entity.User;
+import uz.library.entity.enums.Role;
 
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Optional;
 
-import static db.DataSource.*;
+import static uz.library.db.DataSource.*;
 
 public class AuthService {
     public void service() {

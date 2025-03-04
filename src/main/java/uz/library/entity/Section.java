@@ -1,8 +1,8 @@
-package entity;
+package uz.library.entity;
 
 
-import entity.enums.Role;
-import entity.enums.SectionState;
+import uz.library.entity.enums.Role;
+import uz.library.entity.enums.SectionState;
 
 import java.util.List;
 import java.util.UUID;
